@@ -7,3 +7,4 @@ RUN mkdir /opt/tomcat && cd /opt/tomcat/ && wget http://apachemirror.wuchna.com/
 ENV echo "export CATALINA_HOME=/opt/tomcat/apache-tomcat-8.5.47/" >>.bashrc
 ENV echo "export PATH=$PATH:/opt/tomcat/apache-tomcat-8.5.47/bin" >>.bashrc
 COPY warpro-1.0-SNAPSHOT.war /opt/tomcat/apache-tomcat-8.5.47/webapps
+RUN /opt/tomcat/apache-tomcat-8.5.47/bin/.startup.sh
