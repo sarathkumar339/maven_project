@@ -12,7 +12,7 @@
   	<gig.acidhouse.version>0.0.2</gig.acidhouse.version>
   	<logback.version>1.0.7</logback.version>
   	<servlet.version>2.5</servlet.version>
-  	<junit.version>4.10</junit.version>
+  	<junit.version>4.13.1</junit.version>
   </properties>
   
   <dependencies>
