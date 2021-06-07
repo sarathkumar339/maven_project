@@ -10,7 +10,7 @@
   	<gig.version>0.4.3</gig.version>
   	<gig.jpa.version>0.0.2</gig.jpa.version>
   	<gig.acidhouse.version>0.0.2</gig.acidhouse.version>
-  	<logback.version>1.0.7</logback.version>
+  	<logback.version>1.2.0</logback.version>
   	<servlet.version>2.5</servlet.version>
   	<junit.version>4.10</junit.version>
   </properties>
